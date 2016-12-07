@@ -14,7 +14,6 @@ void kanhAlgorithm(){
         if(in[i] == 0)
             c.push(i);
     vector<int> ord;
-    priority_queue< int, deque<int>, greater<int> > aux;
     int curr;
     while(!c.empty()){
         curr = c.top(); c.pop();
