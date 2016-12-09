@@ -1,10 +1,11 @@
 GRAPHS: MAIN TOPICS
 
-DFS: Depth First Search
-BFS: Breadth First Search
-CCs: Connected Components
-FF: Flood Fill
-TS: Topological Sort for DAG (DFS modified – kahn’s algorithm)
-BC: Bipartite Check
-Graph Edges Property Check via DFS Spanning Tree
-Finding Articulation Points and Bridges
+DFS: Depth First Search YES
+BFS: Breadth First Search YES
+CCs: Connected Components YES
+FF: Flood Fill YES
+TS: Topological Sort for DAG (DFS modified – kahn’s algorithm) YES
+BC: Bipartite Check YES
+Graph Edges Property Check via DFS Spanning Tree -----
+Finding Articulation Points and Bridges YES
+SCC: Strongly Connected Components YES
