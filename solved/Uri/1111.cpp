@@ -45,10 +45,7 @@ int main(){
         for(int i = n - 1; i >= 0; i--){
             for(int j = 0; j < n; j++){
                 g[i][j].clear();
-                cin >> a;
-                cin >> b;
-                cin >> c;
-                cin >> d;
+                cin >> a >> b >> c >> d;
                 g[i][j].push_back(a);
                 g[i][j].push_back(b);
                 g[i][j].push_back(c);
