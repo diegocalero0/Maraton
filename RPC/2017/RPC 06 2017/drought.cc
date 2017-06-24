@@ -7,6 +7,7 @@ const int N = 1e4 + 100;
 
 int A[N];
 int M[50000], greatDer[N];
+
 void initialize(int node, int b, int e){
       if (b == e)
           M[node] = b;
@@ -17,9 +18,9 @@ void initialize(int node, int b, int e){
           if (A[M[2 * node]] >= A[M[2 * node + 1]])
               M[node] = M[2 * node];
           else
-              M[node] = M[2 * node + 1]; 
+              M[node] = M[2 * node + 1];
       }
-  } 
+  }
 
 int query(int node, int b, int e, int i, int j){
       int p1, p2;
@@ -43,15 +44,13 @@ int query(int node, int b, int e, int i, int j){
       if (A[p1] >= A[p2])
           return M[node] = p1;
       return M[node] = p2;
-  }
-
+}
 
 void nextGreaterElementDer(int n){
 	ll next, element;
 	ii pairElement;
 	vector<ii> s;
 	s.push_back(ii(0, A[0]));
-
 	for(ll i = 1; i < n + 1; i++){
 		next = A[i];
 		while(!s.empty()){
@@ -66,7 +65,6 @@ void nextGreaterElementDer(int n){
 		}
 		s.push_back(ii(i, next));
 	}
-
 }
 
 int main(){
