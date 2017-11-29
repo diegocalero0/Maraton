@@ -8,8 +8,8 @@ const int N = 6e5 + 7;
 
 const ll X = 137LL;
 const ll X2 = 139LL;
-const ll MOD = 1000000007;
-const ll MOD2 = 1000000009;
+const ll  MOD = 1000000007LL;
+const ll MOD2 = 1000000009LL;
 const ll MULT = 1000000010LL;
 #define mod(n) (((n)%MOD+MOD)%MOD)
 #define mod2(n) (((n)%MOD2+MOD2)%MOD2)
